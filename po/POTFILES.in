@@ -1,0 +1,8 @@
+#List of source files containing translatable strings.
+src/livewp-astro.c  
+src/livewp-config.c  
+src/livewp-home-widget.c  
+src/livewp-multiactor.c  
+src/livewp-rules.c  
+src/livewp-settings.c
+src/livewp-main.c

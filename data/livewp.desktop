@@ -1,0 +1,10 @@
+[Desktop Entry] 
+Encoding=UTF-8
+Version=0.4
+Name=Live Wallpaper
+Comment=Configuring Live Wallpaper
+Type=HildonControlPanelPlugin
+Icon=livewp
+X-control-panel-plugin=liblivewp-panel-widget.so
+Categories=personalisation
+

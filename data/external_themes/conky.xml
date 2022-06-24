@@ -1,0 +1,10 @@
+<theme>
+    <name>Conky</name>
+    <exec_path>/usr/bin/conky -c /tmp/conky.conf</exec_path>
+    <category>Unknown</category>
+    <icon_on>/usr/share/livewp/theme/Conky/icon.png</icon_on>       
+    <icon_off>/usr/share/livewp/theme/Conky/icond.png</icon_off>       
+    <window_id>-w</window_id>
+    <check_path>/usr/bin/conky</check_path>
+    <install_file>http://maemo.org/downloads/product/raw/Maemo5/conky?get_installfile</install_file>
+</theme>

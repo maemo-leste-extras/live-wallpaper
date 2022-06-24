@@ -1,0 +1,11 @@
+<theme>
+ <name>Colorflood</name>
+ <associated_package>colorflood</associated_package>
+ <exec_path>/usr/bin/colorflood --livewallpaper</exec_path>
+ <window_name>colorflood</window_name>
+ <category>Game</category>
+ <icon_on>/usr/share/livewp/theme/Colorflood/icon.png</icon_on>
+ <icon_off>/usr/share/livewp/theme/Colorflood/icond.png</icon_off>
+ <check_path>/usr/bin/colorflood</check_path>
+ <install_file>http://maemo.org/downloads/product/raw/Maemo5/colorflood/?get_installfile</install_file>
+</theme>

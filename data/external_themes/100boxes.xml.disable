@@ -1,0 +1,6 @@
+<theme>
+    <name>100Boxes</name>
+    <exec_path>/usr/bin/100boxes -l</exec_path>
+    <window_name>100boxes_exec</window_name>
+    <category>Game</category>
+</theme>

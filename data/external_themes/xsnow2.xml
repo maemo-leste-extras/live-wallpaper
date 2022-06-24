@@ -1,0 +1,8 @@
+<theme>
+    <name>Xsnow</name>
+    <exec_path>/usr/bin/xsnow</exec_path>
+    <category>Unknown</category>
+     <icon_on>/usr/share/livewp/theme/Xsnow/icon.png</icon_on>       
+     <icon_off>/usr/share/livewp/theme/Xsnow/icond.png</icon_off>     
+    <check_path>/usr/bin/xsnow</check_path>   
+</theme>

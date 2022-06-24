@@ -1,0 +1,219 @@
+# Finnish translation for livewp.
+# Copyright (C) 2010 Marko Vertainen.
+# This file is distributed under the same license as the livewp package.
+# Vlad Vasiliev <vlad@gas.by>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-05 09:05+0300\n"
+"PO-Revision-Date: 2010-10-11 22:38+0200\n"
+"Last-Translator: Marko Vertainen <marko.vertainen@iki.fi>\n"
+"Language-Team: fi_FI <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: src/livewp-settings.c:34
+#: src/livewp-settings.c:592
+msgid "About"
+msgstr "Tietoja"
+
+#: src/livewp-settings.c:233
+#: src/livewp-settings.c:306
+#: src/livewp-settings.c:325
+#: src/livewp-settings.c:897
+msgid "Accel"
+msgstr "Accel"
+
+#: src/livewp-settings.c:223
+#: src/livewp-settings.c:303
+#: src/livewp-settings.c:313
+#: src/livewp-settings.c:891
+msgid "Berlin"
+msgstr "Berliini"
+
+#: src/livewp-settings.c:393
+msgid "Category"
+msgstr "Kategoria"
+
+#: src/livewp-settings.c:487
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: src/livewp-config.c:34
+#: src/livewp-config.c:96
+#: src/livewp-config.c:172
+#: src/livewp-config.c:191
+#: src/livewp-config.c:213
+#: src/livewp-config.c:284
+#, c-format
+msgid "Failed to initialize GConf. Quitting.\n"
+msgstr "GConf asetus epäonnistui. Lopetetaan.\n"
+
+#: src/livewp-settings.c:239
+#: src/livewp-settings.c:913
+msgid "Flash"
+msgstr "Flash"
+
+#: src/livewp-settings.c:765
+#: src/livewp-settings.c:768
+msgid "Folder with images"
+msgstr "Valokuvakansio"
+
+#: src/livewp-settings.c:567
+msgid "Live Wallpaper Settings"
+msgstr "Elävän taustakuvan asetukset"
+
+#: src/livewp-settings.c:38
+#, c-format
+msgid ""
+"Live Wallpaper Version %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 for design themes Berlin, Modern and Accel Vasya Bobrikov\n"
+" Copyright(c) 2010 for design themes Matrix, Fifteen \n"
+"and for icons Andrew Zhilin\n"
+" Translators:\n"
+" Finnish - Marko Vertainen\n"
+" Spain  - Alejandro López\n"
+" Italian  - Emanuele Cassioli\n"
+" Dutch - Roland van Tilburg (aka ROLAN900D) \n"
+" Russian - Tanya Makova \n"
+"           Vlad Vasiliev\n"
+msgstr ""
+"Elävä taustakuva, versio %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 teemojen Berliini ja Moderni suunnittelu Vasya Bobrikov\n"
+" Copyright(c) 2010 teemojen Matrix, Fifteen ja kuvakkeiden suunnittelu Andrew Zhilin\n"
+" Kääntäjät:\n"
+" Suomi - Marko Vertainen\n"
+" Espanja - Alejandro López\n"
+" Italia - Emanuele Cassioli\n"
+" Hollanti - Roland van Tilburg (aka ROLAN900D) \n"
+" Venäjä - Tanya Makova \n"
+"          Vlad Vasiliev\n"
+
+#: src/livewp-settings.c:607
+msgid "Livewallpaper is reloading..."
+msgstr "Ladataan elävän taustakuvan näkymää ..."
+
+#: src/livewp-main.c:318
+msgid "Loading Livewallpaper scene ..."
+msgstr "Ladataan elävän taustakuvan näkymää ..."
+
+#: src/livewp-settings.c:709
+msgid "Loop"
+msgstr "Uudelleen toisto"
+
+#: src/livewp-settings.c:229
+#: src/livewp-settings.c:305
+#: src/livewp-settings.c:321
+#: src/livewp-settings.c:895
+msgid "Matrix"
+msgstr "Matrix"
+
+#: src/livewp-settings.c:226
+#: src/livewp-settings.c:304
+#: src/livewp-settings.c:317
+#: src/livewp-settings.c:893
+msgid "Modern"
+msgstr "Moderni"
+
+#: src/livewp-settings.c:570
+msgid "One theme in all views"
+msgstr "Yksi teema kaikilla näytöillä"
+
+#: src/livewp-settings.c:698
+#: src/livewp-settings.c:701
+#: src/livewp-settings.c:744
+#: src/livewp-settings.c:747
+msgid "Play file"
+msgstr "Valitse videoleike"
+
+#: src/livewp-settings.c:721
+msgid "Press me for"
+msgstr "Paina minua"
+
+#: src/livewp-settings.c:671
+msgid "Rich Animation"
+msgstr "Rikas animaatio"
+
+#: src/livewp-settings.c:874
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/livewp-settings.c:242
+#: src/livewp-settings.c:308
+#: src/livewp-settings.c:333
+#: src/livewp-settings.c:921
+msgid "Slideshow"
+msgstr "Diaesitys"
+
+#: src/livewp-settings.c:715
+msgid "Smoothing (Need more memory)"
+msgstr "Pehmennys (tarvitsee enemmän muistia)"
+
+#: src/livewp-settings.c:375
+msgid "Theme"
+msgstr "Teema"
+
+#: src/livewp-settings.c:798
+#, c-format
+msgid "Theme %s has already been selected"
+msgstr "Teema %s on jo valittu"
+
+#: src/livewp-settings.c:776
+#: src/livewp-settings.c:778
+msgid "Time to change image"
+msgstr "Aika kuvan vaihtamiseksi"
+
+#: src/livewp-settings.c:236
+#: src/livewp-settings.c:307
+#: src/livewp-settings.c:329
+#: src/livewp-settings.c:899
+msgid "Video"
+msgstr "Video"
+
+#: src/livewp-settings.c:826
+msgid "View Settings"
+msgstr "Näkymän asetukset"
+
+#: src/livewp-settings.c:271
+#: src/livewp-settings.c:948
+#: src/livewp-settings.c:951
+#, c-format
+msgid "You haven't got the installed package %s. Do you want to install it via using Application Manager?"
+msgstr "Et ole asentanut %s pakettia. Haluatko asentaa sen sovellusten hallinnalla?"
+
+#: src/livewp-settings.c:790
+#, c-format
+msgid "You haven't got the installed package %s. Please install it via using Application Manager"
+msgstr "Et ole asentanut %s pakettia. Voit asentaa sen Sovellusten hallinnalla."
+
+#: src/livewp-settings.c:721
+msgid "download more videos"
+msgstr "lataa lisää videoita"
+
+#~ msgid "Xsnow"
+#~ msgstr "Xsnow"
+#~ msgid "Sound"
+#~ msgstr "Ääni"
+#~ msgid ""
+#~ "You haven't got the installed package 'Sherman's Aquarium'. Please "
+#~ "install it via using Application Manager"
+#~ msgstr ""
+#~ " 'Sherman's Aquarium' pakettia ei ole asennettu. Voit asentaa sen "
+#~ "Sovellusten hallinnalla."
+#~ msgid ""
+#~ "You haven't got the installed package Xscreensaver. Please install it via "
+#~ "using Application Manager"
+#~ msgstr ""
+#~ "Xscreensaver pakettia ei ole asennettu. Voit asentaa sen Sovellusten "
+#~ "hallinnalla."
+

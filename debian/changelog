@@ -1,0 +1,209 @@
+live-wallpaper (1.0.3) unstable; urgency=low
+
+  * Updated Spain translation
+  * Fixed bug #6497 livewp 5 and 6 and 7 processes allocating RAM while
+    live-wallpapers are disabled
+
+ -- Vlad Vasiliev <vlad@gas.by>  Tue, 26 Oct 2010 23:29:10 +0200
+
+live-wallpaper (1.0.2) unstable; urgency=low
+
+  * Updated Finish, Italian, Dutch translations
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sat, 16 Oct 2010 11:29:10 +0200
+
+live-wallpaper (1.0.1) unstable; urgency=low
+
+  * Fixed problem with width of screen in theme 'Flash' (Thanks Koos)
+  * Fixed problems in theme 'Slideshow'
+  * Fixed problem with settings for theme "Flash"
+
+ -- Vlad Vasiliev <vlad@gas.by>  Thu, 05 Oct 2010 11:59:10 +0200
+
+live-wallpaper (1.0) unstable; urgency=low
+
+  * Added theme 'Flash' 
+  * Added theme 'Slideshow'
+  * Increased to 9 supported view  
+  * Updated Russian translation
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 03 Oct 2010 11:59:10 +0200
+
+live-wallpaper (0.9.2) unstable; urgency=low
+
+  * Added Dutch translation (Thanks Roland van Tilburg (aka ROLAN900D))  
+  * Updated Russian, Italian, Finish, Spain transaltion
+  * Added link for download of video
+  * Added check for multiple running of themes
+  * Added possibility for direct install of needed packages from livewallpaper
+
+ -- Vlad Vasiliev <vlad@gas.by>  Wed, 22 Sep 2010 16:29:10 +0200
+
+live-wallpaper (0.9.1) unstable; urgency=low
+
+  * Fixed problem with option 'One theme for all displays' in configuration
+  window
+  * Improved to show video in mode 'One theme for all displays' 
+  * Added option Smoothing in theme 'Video'
+
+ -- Vlad Vasiliev <vlad@gas.by>  Wed, 08 Sep 2010 20:59:10 +0200
+
+live-wallpaper (0.9) unstable; urgency=low
+
+  * Added theme Conky 
+  * Added theme Colorflood 
+  * Added theme CrazyChickens 
+  * Added theme Fifteen (Thanks Andrew Zhilin aka wazd for design)
+  * Added theme Liqflow 
+  * Added Italian translation (Thanks Emanuele Cassioli) 
+  * Updated Russian, Finish, Spain translations
+
+ -- Vlad Vasiliev <vlad@gas.by>  Tue, 07 Sep 2010 18:59:10 +0200
+
+live-wallpaper (0.8.5) unstable; urgency=low
+
+  * Fixed number version in dialog "About" 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 23 Aug 2010 07:10:10 +0200
+
+live-wallpaper (0.8.4) unstable; urgency=low
+
+  * Fixed name for Sherman's Aquarium theme 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 22 Aug 2010 20:10:10 +0200
+
+live-wallpaper (0.8.3) unstable; urgency=low
+
+  * Removed options 'Sound' from theme Video 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 22 Aug 2010 18:39:10 +0200
+
+live-wallpaper (0.8.2) unstable; urgency=low
+
+  * Updated Finish and Russian translation
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 22 Aug 2010 11:39:10 +0200
+
+live-wallpaper (0.8.1) unstable; urgency=low
+
+  * Fixed problem in parsing of xml files 
+  * Updated Finish and Russian translation
+  * Fixed bug with theme settings (when use theme Abstractile in category
+    Xscreensaver) 
+  * Done native background in theme Accel
+  * Added option 'Sound' for theme Video
+  * Restyling 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Mon, 16 Aug 2010 12:39:10 +0200
+
+live-wallpaper (0.8) unstable; urgency=low
+
+  * Added possibilty to use external themes (see examples in package Xscreensaver)
+  * Added Category for themes
+
+ -- Vlad Vasiliev <vlad@gas.by>  Mon, 16 Aug 2010 12:39:10 +0200
+ 
+live-wallpaper (0.7.1) unstable; urgency=low
+
+  * Fixed problem in settings for non English locales. Fixed bug [#6176] Rich animation setting can't allways be selected
+  * Fixed various gcc's warnings
+  * Added checking of existence the program Xsnow in system. Fixed bug [#6175] Theme Xsnow not working 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Thu, 03 Aug 2010 21:39:10 +0200
+
+live-wallpaper (0.7) unstable; urgency=low
+
+  * Done real live background for PR 1.2
+  * Updated Finish and Russian translation
+  * Added themes Accel, Video and Xsnow
+
+ -- Vlad Vasiliev <vlad@gas.by>  Thu, 03 Aug 2010 21:39:10 +0200
+
+live-wallpaper (0.6.2) unstable; urgency=low
+
+  * Fixed drying of battery  
+
+ -- Vlad Vasiliev <vlad@gas.by>  Thu, 22 Jul 2010 22:39:10 +0200
+
+live-wallpaper (0.6.1) unstable; urgency=low
+
+  * Fixed craching after click in setting icon on applet 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Wen, 21 Jul 2010 10:19:10 +0200
+
+live-wallpaper (0.6) unstable; urgency=low
+
+  * Added possiblity to use all displays
+
+ -- Vlad Vasiliev <vlad@gas.by>  Tue, 20 Jul 2010 12:09:10 +0200
+
+live-wallpaper (0.5.1) unstable; urgency=low
+
+  * Fixed bug with load theme at startup 
+
+ -- Vlad Vasiliev <vlad@gas.by>  Tue, 15 Jun 2010 23:29:10 +0200
+
+live-wallpaper (0.5) unstable; urgency=low
+
+  * Removed unusable menu icon again
+  * Added icon to package
+  * Added icon in the control panel applet
+  * Added start/stop applet button in the control panel
+  * Added billboard in Modern theme with information about missing calls, sms, emails and chats
+  * Updated Russian, Spanish, Finnish translation
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sat, 12 Jun 2010 21:29:10 +0200
+
+live-wallpaper (0.4.2) unstable; urgency=low
+
+  * Fixed number version in about window   
+
+ -- Vlad Vasiliev <vlad@gas.by>  Mon, 26 Apr 2010 21:29:10 +0200
+
+live-wallpaper (0.4.1) unstable; urgency=low
+
+  * Removed unusable menu icon  
+  * Fixed Matrix theme when rich animation mode is off
+  * Fixed Russian translation
+
+ -- Vlad Vasiliev <vlad@gas.by>  Mon, 26 Apr 2010 15:23:10 +0200
+
+live-wallpaper (0.4) unstable; urgency=low
+
+  * Added theme Matrix
+  * Fixed problem with traffic light
+  * Added moon moving
+  * Added possibility to configure Live Wallpaper using Control Panel
+  * Added Finland tranalation
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 25 Apr 2010 21:23:10 +0200
+
+live-wallpaper (0.3) unstable; urgency=low
+
+  * Fixed problem with tram
+  * Added dark clouds in the night
+  * Added semaphore and windows in Berlin
+  * Added new pictures in Berlin
+  * Fixed problem with plane
+  * Changed in timer's algorithm
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 14 Apr 2010 16:21:10 +0200
+
+live-wallpaper (0.2) unstable; urgency=low
+
+  * Added two planes in theme "Berlin"
+  * Added clouds in both themes, they moving according to a wind direction
+  * Appearance of object, wind direction are defined randomly
+  * At night in windows lights up and light dies away in theme "Modern"
+  * Fixed memory leaks
+  * Fixed view buttons in edit mode on hildon desktop
+  * Added Rich animation parameters
+
+ -- Vlad Vasiliev <vlad@gas.by>  Tue, 13 Apr 2010 14:11:10 +0200
+
+live-wallpaper (0.1) unstable; urgency=low
+
+  * First release
+
+ -- Vlad Vasiliev <vlad@gas.by>  Sun, 21 Mar 2010 16:11:10 +0200
+

@@ -1,0 +1,11 @@
+<theme>
+    <name>CrazyChickens</name>
+    <exec_path>/usr/bin/crazychickens</exec_path>
+    <window_name>crazychickens</window_name>
+    <category>Game</category>
+    <icon_on>/usr/share/livewp/theme/CrazyChickens/icon.png</icon_on>       
+    <icon_off>/usr/share/livewp/theme/CrazyChickens/icond.png</icon_off>       
+    <view>--livewallpaper</view>
+    <check_path>/usr/bin/crazychickens</check_path>
+    <install_file>http://maemo.org/downloads/product/raw/Maemo5/crazychickens/?get_installfile</install_file>
+</theme>

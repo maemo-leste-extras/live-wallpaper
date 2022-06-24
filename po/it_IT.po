@@ -1,0 +1,195 @@
+# Italian translation for livewp.
+# Copyright (C) 2010 Emanuele Cassioli
+# This file is distributed under the same license as the livewp package.
+# Emanuele Cassioli <emanuele.cassioli@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: o.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-05 09:05+0300\n"
+"PO-Revision-Date: 2010-10-11 15:21+0100\n"
+"Last-Translator: Emanuele Cassioli <emanuele.cassioli@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: src/livewp-settings.c:34 src/livewp-settings.c:592
+msgid "About"
+msgstr "About"
+
+#: src/livewp-settings.c:233 src/livewp-settings.c:306
+#: src/livewp-settings.c:325 src/livewp-settings.c:897
+msgid "Accel"
+msgstr "Accel"
+
+#: src/livewp-settings.c:223 src/livewp-settings.c:303
+#: src/livewp-settings.c:313 src/livewp-settings.c:891
+msgid "Berlin"
+msgstr "Berlin"
+
+#: src/livewp-settings.c:393
+msgid "Category"
+msgstr "Categoria"
+
+#: src/livewp-settings.c:487
+msgid "Enable"
+msgstr "Attivo"
+
+#: src/livewp-config.c:34 src/livewp-config.c:96 src/livewp-config.c:172
+#: src/livewp-config.c:191 src/livewp-config.c:213 src/livewp-config.c:284
+#, c-format
+msgid "Failed to initialize GConf. Quitting.\n"
+msgstr "Avvio di GConf non riuscito. Chiusura in corso.\n"
+
+#: src/livewp-settings.c:239 src/livewp-settings.c:913
+msgid "Flash"
+msgstr "Flash"
+
+#: src/livewp-settings.c:765 src/livewp-settings.c:768
+msgid "Folder with images"
+msgstr "Cartella con immagini"
+
+#: src/livewp-settings.c:567
+msgid "Live Wallpaper Settings"
+msgstr "Impostazioni di Live Wallpaper"
+
+#: src/livewp-settings.c:38
+#, fuzzy, c-format
+msgid ""
+"Live Wallpaper Version %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 for design themes Berlin, Modern and Accel Vasya "
+"Bobrikov\n"
+" Copyright(c) 2010 for design themes Matrix, Fifteen \n"
+"and for icons Andrew Zhilin\n"
+" Translators:\n"
+" Finnish - Marko Vertainen\n"
+" Spain  - Alejandro López\n"
+" Italian  - Emanuele Cassioli\n"
+" Dutch - Roland van Tilburg (aka ROLAN900D) \n"
+" Russian - Tanya Makova \n"
+"           Vlad Vasiliev\n"
+msgstr ""
+"Live Wallpaper Versione %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 per il design di Berlin, Modern and Accel Vasya Bobrikov\n"
+" Copyright(c) 2010 per il design di Matrix, Quindici \n"
+"e per le icone Andrew Zhilin\n"
+" Traduttori:\n"
+" Finlandese - Marko Vertainen\n"
+" Spagnolo  - Alejandro López\n"
+" Italiano  - Emanuele Cassioli\n"
+" Olandese - Roland van Tilburg (aka ROLAN900D) \n"
+" Russo - Tanya Makova \n"
+"         Vlad Vasiliev\n"
+
+#: src/livewp-settings.c:607
+msgid "Livewallpaper is reloading..."
+msgstr "Livewallpaper sta ricaricando..."
+
+#: src/livewp-main.c:318
+msgid "Loading Livewallpaper scene ..."
+msgstr "Caricamento di Livewallpaper..."
+
+#: src/livewp-settings.c:709
+msgid "Loop"
+msgstr "Ripeti"
+
+#: src/livewp-settings.c:229 src/livewp-settings.c:305
+#: src/livewp-settings.c:321 src/livewp-settings.c:895
+msgid "Matrix"
+msgstr "Matrix"
+
+#: src/livewp-settings.c:226 src/livewp-settings.c:304
+#: src/livewp-settings.c:317 src/livewp-settings.c:893
+msgid "Modern"
+msgstr "Modern"
+
+#: src/livewp-settings.c:570
+msgid "One theme in all views"
+msgstr "Utilizza un solo tema"
+
+#: src/livewp-settings.c:698 src/livewp-settings.c:701
+#: src/livewp-settings.c:744 src/livewp-settings.c:747
+msgid "Play file"
+msgstr "File da riprodurre"
+
+#: src/livewp-settings.c:721
+msgid "Press me for"
+msgstr "Premimi per"
+
+#: src/livewp-settings.c:671
+msgid "Rich Animation"
+msgstr "Animazione dettagliata"
+
+#: src/livewp-settings.c:874
+msgid "Save"
+msgstr "Salva"
+
+#: src/livewp-settings.c:242 src/livewp-settings.c:308
+#: src/livewp-settings.c:333 src/livewp-settings.c:921
+msgid "Slideshow"
+msgstr "Presentazione"
+
+#: src/livewp-settings.c:715
+msgid "Smoothing (Need more memory)"
+msgstr "Smoothing (Occupa più memoria)"
+
+#: src/livewp-settings.c:375
+msgid "Theme"
+msgstr "Tema"
+
+#: src/livewp-settings.c:798
+#, c-format
+msgid "Theme %s has already been selected"
+msgstr "Il tema %s è già stato selezionato"
+
+#: src/livewp-settings.c:776 src/livewp-settings.c:778
+msgid "Time to change image"
+msgstr "Intervallo tra le immagini"
+
+#: src/livewp-settings.c:236 src/livewp-settings.c:307
+#: src/livewp-settings.c:329 src/livewp-settings.c:899
+msgid "Video"
+msgstr "Video"
+
+#: src/livewp-settings.c:826
+msgid "View Settings"
+msgstr "Modifica impostazioni"
+
+#: src/livewp-settings.c:271 src/livewp-settings.c:948
+#: src/livewp-settings.c:951
+#, fuzzy, c-format
+msgid ""
+"You haven't got the installed package %s. Do you want to install it via "
+"using Application Manager?"
+msgstr ""
+"Pacchetto applicazione %s non trovato. Installarlo utilizzando Gestione "
+"Applicazioni?"
+
+#: src/livewp-settings.c:790
+#, c-format
+msgid ""
+"You haven't got the installed package %s. Please install it via using "
+"Application Manager"
+msgstr ""
+"Pacchetto applicazione %s non trovato. Installarlo utilizzando Gestione "
+"Applicazioni"
+
+#: src/livewp-settings.c:721
+#, fuzzy
+msgid "download more videos"
+msgstr "Scarica altri video"
+
+#~ msgid "Xsnow"
+#~ msgstr "Xsnow"
+
+#~ msgid "Sound"
+#~ msgstr "Suono"

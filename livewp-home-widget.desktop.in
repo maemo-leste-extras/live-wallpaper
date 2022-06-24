@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Live Wallpaper
+Comment=Live Wallpaper
+Type=default
+X-Path=liblivewp-home-widget.so
+X-Multiple=false
+

@@ -1,0 +1,9 @@
+<theme>
+<name>Orrery</name>
+ <exec_path>/usr/bin/orrery -d /usr/share/orrery/</exec_path>
+ <window_name>orrery</window_name>
+ <category>Unknown</category>
+ <icon_on>/usr/share/livewp/theme/Orrery/icon.png</icon_on>       
+ <icon_off>/usr/share/livewp/theme/Orrery/icond.png</icon_off> 
+ <check_path>/opt/maemo/usr/bin/orrery</check_path>      
+</theme>

@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-05 09:05+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alejandro López <alejandro.lopez@free.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: src/livewp-settings.c:34
+#: src/livewp-settings.c:592
+msgid "About"
+msgstr "Acerca de"
+
+#: src/livewp-settings.c:233
+#: src/livewp-settings.c:306
+#: src/livewp-settings.c:325
+#: src/livewp-settings.c:897
+msgid "Accel"
+msgstr "Accel"
+
+#: src/livewp-settings.c:223
+#: src/livewp-settings.c:303
+#: src/livewp-settings.c:313
+#: src/livewp-settings.c:891
+msgid "Berlin"
+msgstr "Berlín"
+
+#: src/livewp-settings.c:393
+msgid "Category"
+msgstr "Categoría"
+
+#: src/livewp-settings.c:487
+msgid "Enable"
+msgstr "Activar"
+
+#: src/livewp-config.c:34
+#: src/livewp-config.c:96
+#: src/livewp-config.c:172
+#: src/livewp-config.c:191
+#: src/livewp-config.c:213
+#: src/livewp-config.c:284
+#, c-format
+msgid "Failed to initialize GConf. Quitting.\n"
+msgstr "Falló la inicialización de GConf. Terminando.\n"
+
+# Flash?
+#: src/livewp-settings.c:239
+#: src/livewp-settings.c:913
+msgid "Flash"
+msgstr "Flash"
+
+#: src/livewp-settings.c:765
+#: src/livewp-settings.c:768
+msgid "Folder with images"
+msgstr "Carpeta con imágenes"
+
+#: src/livewp-settings.c:567
+msgid "Live Wallpaper Settings"
+msgstr "Configuración de Live Wallpaper"
+
+#: src/livewp-settings.c:38
+#, c-format
+msgid ""
+"Live Wallpaper Version %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 for design themes Berlin, Modern and Accel Vasya Bobrikov\n"
+" Copyright(c) 2010 for design themes Matrix, Fifteen \n"
+"and for icons Andrew Zhilin\n"
+" Translators:\n"
+" Finnish - Marko Vertainen\n"
+" Spain  - Alejandro López\n"
+" Italian  - Emanuele Cassioli\n"
+" Dutch - Roland van Tilburg (aka ROLAN900D) \n"
+" Russian - Tanya Makova \n"
+"           Vlad Vasiliev\n"
+msgstr ""
+"Live Wallpaper Versión %s \n"
+" Copyright(c) 2010\n"
+" Tanya Makova\n"
+" Vlad Vasiliev\n"
+" Copyright(c) 2010 del diseño de los temas Berlín, Moderno y Accel, Vasya Bobrikov\n"
+" Copyright(c) 2010 del diseño de los temas Matrix, Quince \n"
+"y por los íconos Andrew Zhilin\n"
+" Traductores:\n"
+" Finlandés - Marko Vertainen\n"
+" Castellano - Alejandro López\n"
+" Italiano - Emanuele Cassioli\n"
+" Holandés - Roland \"ROLAN900D\" van Tilburg\n"
+" Ruso - Tanya Makova \n"
+"        Vlad Vasiliev\n"
+
+#: src/livewp-settings.c:607
+msgid "Livewallpaper is reloading..."
+msgstr "Recargando Livewallpaper..."
+
+#: src/livewp-main.c:318
+msgid "Loading Livewallpaper scene ..."
+msgstr "Cargando escena de Livewallpaper..."
+
+#: src/livewp-settings.c:709
+msgid "Loop"
+msgstr "Bucle"
+
+#: src/livewp-settings.c:229
+#: src/livewp-settings.c:305
+#: src/livewp-settings.c:321
+#: src/livewp-settings.c:895
+msgid "Matrix"
+msgstr "Matrix"
+
+#: src/livewp-settings.c:226
+#: src/livewp-settings.c:304
+#: src/livewp-settings.c:317
+#: src/livewp-settings.c:893
+msgid "Modern"
+msgstr "Moderno"
+
+#: src/livewp-settings.c:570
+msgid "One theme in all views"
+msgstr "Un tema en todas las vistas"
+
+#: src/livewp-settings.c:698
+#: src/livewp-settings.c:701
+#: src/livewp-settings.c:744
+#: src/livewp-settings.c:747
+msgid "Play file"
+msgstr "Ejecutar fichero"
+
+#: src/livewp-settings.c:721
+msgid "Press me for"
+msgstr "Presioname para"
+
+#: src/livewp-settings.c:671
+msgid "Rich Animation"
+msgstr "Animación rica"
+
+#: src/livewp-settings.c:874
+msgid "Save"
+msgstr "Guardar"
+
+#: src/livewp-settings.c:242
+#: src/livewp-settings.c:308
+#: src/livewp-settings.c:333
+#: src/livewp-settings.c:921
+msgid "Slideshow"
+msgstr "Proyección de diapositivas"
+
+# video playback without visible pauses and time delays
+#: src/livewp-settings.c:715
+msgid "Smoothing (Need more memory)"
+msgstr "Suavizando (más memoria es necesaria)"
+
+#: src/livewp-settings.c:375
+msgid "Theme"
+msgstr "Tema"
+
+#: src/livewp-settings.c:798
+#, c-format
+msgid "Theme %s has already been selected"
+msgstr "El tema %s ya fue seleccionado"
+
+#: src/livewp-settings.c:776
+#: src/livewp-settings.c:778
+msgid "Time to change image"
+msgstr "Tiempo para cambiar de imagen"
+
+#: src/livewp-settings.c:236
+#: src/livewp-settings.c:307
+#: src/livewp-settings.c:329
+#: src/livewp-settings.c:899
+msgid "Video"
+msgstr "Video"
+
+#: src/livewp-settings.c:826
+msgid "View Settings"
+msgstr "Configuración de Vista"
+
+#: src/livewp-settings.c:271
+#: src/livewp-settings.c:948
+#: src/livewp-settings.c:951
+#, c-format
+msgid "You haven't got the installed package %s. Do you want to install it via using Application Manager?"
+msgstr "No tienes instalado el paquete %s. ¿Quieres instalarlo usando el Administrador de Aplicaciones?"
+
+#: src/livewp-settings.c:790
+#, c-format
+msgid "You haven't got the installed package %s. Please install it via using Application Manager"
+msgstr "No tienes instalado el paquete %s. Por favor utiliza el Administrador de Aplicaciones para instarlo."
+
+#: src/livewp-settings.c:721
+msgid "download more videos"
+msgstr "Descargas más videos"
+
+# Is this a theme name?
+#~ msgid "Xsnow"
+#~ msgstr "Xsnow"
+#~ msgid "Sound"
+#~ msgstr "Sonido"
+#, fuzzy
+#~ msgid ""
+#~ "You haven't got the installed package 'Sherman's Aquarium'. Please "
+#~ "install it via using Application Manager"
+#~ msgstr ""
+#~ "No tiene instalado el paquete Xsnow. Por favor utiliza el Administrador "
+#~ "de Aplicaciones para instarlo."
+
+#, fuzzy
+#~ msgid ""
+#~ "You haven't got the installed package Xscreensaver. Please install it via "
+#~ "using Application Manager"
+#~ msgstr ""
+#~ "No tiene instalado el paquete Xsnow. Por favor utiliza el Administrador "
+#~ "de Aplicaciones para instarlo."

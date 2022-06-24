@@ -1,0 +1,10 @@
+<theme>
+    <name>Flash</name>
+    <exec_path>/opt/kmplayer/bin/knpplayer -m application/x-shockwave-flash -p /usr/lib/browser/plugins/libflashplayer.so</exec_path>
+    <category>LiveWallpaper</category>
+    <icon_on>/usr/share/livewp/theme/Flash/icon.png</icon_on>       
+    <icon_off>/usr/share/livewp/theme/Flash/icond.png</icon_off>       
+    <gtk_socket_id>-max -wid</gtk_socket_id>
+    <check_path>/opt/kmplayer/bin/knpplayer</check_path>
+    <install_file>http://maemo.org/downloads/product/raw/Maemo5/kmplayer/?get_installfile</install_file>
+</theme>

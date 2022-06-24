@@ -1,0 +1,10 @@
+<theme>
+<name>Fifteen</name>
+ <exec_path>/usr/bin/fifteen</exec_path>
+ <window_name>Fifteen_exec</window_name>
+ <category>Game</category>
+ <icon_on>/usr/share/livewp/theme/Fifteen/icon.png</icon_on>       
+ <icon_off>/usr/share/livewp/theme/Fifteen/icond.png</icon_off>       
+ <view>-v</view>
+ <copies>1</copies>
+</theme>
