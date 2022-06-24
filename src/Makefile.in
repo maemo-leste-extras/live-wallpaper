@@ -452,7 +452,7 @@ livewp_SOURCES = $(SOURCE_FILES)
 #
 livewp_CFLAGS = -Wall $(MAEMO_CFLAGS) $(OSSO_CFLAGS) $(SQLITE_CFLAGS) -DAPPLICATION
 #
-livewp_LDADD = $(MAEMO_LIBS) $(OSSO_LIBS) $(SQLITE_LIBS)
+livewp_LDADD = $(MAEMO_LIBS) $(OSSO_LIBS) $(SQLITE_LIBS) -lm
 
 # We invent desktoplib_LTLIBRARIES instead of the normal lib_LTLIBRARIES,
 # so we can specify the non-standard installation directory.
