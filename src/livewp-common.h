@@ -41,7 +41,9 @@
 #include <X11/Xatom.h>
 /* Gstreamer */
 #include <gst/gst.h>
-#include <gst/interfaces/xoverlay.h>
+//#include <gst/interfaces/xoverlay.h>
+#include <gst/video/videooverlay.h>
+#include <gdk/gdkx.h>  // for GDK_WINDOW_XID
 
 #define GETTEXT_PACKAGE "livewp"
 #include <glib/gi18n-lib.h>

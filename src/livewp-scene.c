@@ -369,8 +369,16 @@ init_scene_Video(AWallpaperPlugin *desktop_plugin)
 #endif
     g_object_set (G_OBJECT (videosink), "force-aspect-ratio", TRUE, NULL  );
 
-    if (GST_IS_X_OVERLAY (videosink))
-	    gst_x_overlay_set_xwindow_id (GST_X_OVERLAY (videosink), GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
+    //if (GST_IS_X_OVERLAY (videosink))
+	    //gst_x_overlay_set_xwindow_id (GST_X_OVERLAY (videosink), GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
+
+    //static guintptr video_window_handle = 0;
+    // GST_MESSAGE_SRC (message) will be the video sink element
+   overlay = GST_VIDEO_OVERLAY (GST_MESSAGE_SRC (message));
+   gst_video_overlay_set_window_handle (overlay, GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
+ } else {
+   g_warning ("Should have obtained video_window_handle by now!");
+ }
 
     if (desktop_plugin->priv->visible){
         g_timeout_add(50, (GSourceFunc)cb_timeout0, desktop_plugin);
@@ -395,7 +403,7 @@ init_scene_Slideshow(AWallpaperPlugin *desktop_plugin)
 	GSList *store = NULL;
 	gint num = 0;
 
-	fprintf(stderr, "init scene Slideshow %d %s\n", desktop_plugin->priv->theme_int_parametr1, 
+	fprintf(stderr, "init scene Slideshow %d %s\n", desktop_plugin->priv->theme_int_parametr1,
                 desktop_plugin->priv->theme_string_parametr1);
 
 	scene = g_new0(Scene, 1);
@@ -423,7 +431,7 @@ init_scene_Slideshow(AWallpaperPlugin *desktop_plugin)
 		}
 		closedir(dir_fd);
 	}
-    
+
     bgfile = g_strdup_printf("/home/user/.backgrounds/background-%i.png", desktop_plugin->priv->view);
     actor = init_object(desktop_plugin, "original", bgfile,
                       0, 0, 0, 800, 480,
