@@ -1,3 +1,9 @@
+live-wallpaper (1.0.3-1+leste1) unstable; urgency=low
+
+  * Maemo Leste port
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Fri, 24 Jun 2022 04:41:30 +0400
+
 live-wallpaper (1.0.3) unstable; urgency=low
 
   * Updated Spain translation
