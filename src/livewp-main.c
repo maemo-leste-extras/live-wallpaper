@@ -275,7 +275,7 @@ long_timeout (AWallpaperPlugin *desktop_plugin)
     /*fprintf(stderr, "long_timeout %i\n", desktop_plugin->priv->long_timer); */
     if (desktop_plugin->priv->pipeline){
 	if (!desktop_plugin->priv->visible && !desktop_plugin->priv->theme_bool_parametr1){
-		gst_element_query_position(desktop_plugin->priv->pipeline, &fmt, &p);
+		gst_element_query_position(desktop_plugin->priv->pipeline, fmt, &p);
 		desktop_plugin->priv->theme_int_parametr1 = p / GST_SECOND;
 		gst_element_set_state (desktop_plugin->priv->pipeline, GST_STATE_NULL);
 		gst_object_unref (GST_OBJECT (desktop_plugin->priv->pipeline));
@@ -350,7 +350,7 @@ main(int argc, char *argv[])
     if (view < 1 || view > 9)
         view = 1;
 
-    /* Checking of running view */ 
+    /* Checking of running view */
     gconf_client = gconf_client_get_default();
     if (gconf_client){
         stlist = gconf_client_get_list(gconf_client,
