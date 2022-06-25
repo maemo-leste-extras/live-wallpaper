@@ -12,7 +12,7 @@ AC_HEADER_STDC
 AC_PROG_INSTALL
 AM_PROG_LIBTOOL
 
-PKG_CHECK_MODULES(MAEMO, libxml-2.0 hildon-1 libhildondesktop-1 hildon-fm-2 gtk+-2.0 gstreamer-1.0)
+PKG_CHECK_MODULES(MAEMO, x11 libxml-2.0 hildon-1 libhildondesktop-1 hildon-fm-2 gtk+-2.0 gstreamer-1.0 gstreamer-plugins-base-1.0 gstreamer-video-1.0)
 AC_SUBST(MAEMO_CFLAGS)
 AC_SUBST(MAEMO_LIBS)
 MAEMO_LIBS="$MAEMO_LIBS -lm"
