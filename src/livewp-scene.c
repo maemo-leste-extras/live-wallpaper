@@ -369,16 +369,9 @@ init_scene_Video(AWallpaperPlugin *desktop_plugin)
 #endif
     g_object_set (G_OBJECT (videosink), "force-aspect-ratio", TRUE, NULL  );
 
-    //if (GST_IS_X_OVERLAY (videosink))
+    if (GST_IS_X_OVERLAY (videosink))
 	    //gst_x_overlay_set_xwindow_id (GST_X_OVERLAY (videosink), GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
-
-    //static guintptr video_window_handle = 0;
-    // GST_MESSAGE_SRC (message) will be the video sink element
-   overlay = GST_VIDEO_OVERLAY (GST_MESSAGE_SRC (message));
-   gst_video_overlay_set_window_handle (overlay, GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
- } else {
-   g_warning ("Should have obtained video_window_handle by now!");
- }
+	    gst_x_overlay_set_window_handle (GST_X_OVERLAY (videosink), GDK_DRAWABLE_XID(desktop_plugin->priv->window->window));
 
     if (desktop_plugin->priv->visible){
         g_timeout_add(50, (GSourceFunc)cb_timeout0, desktop_plugin);
