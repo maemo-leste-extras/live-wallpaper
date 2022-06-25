@@ -15,14 +15,16 @@ AM_PROG_LIBTOOL
 PKG_CHECK_MODULES(MAEMO, libxml-2.0 hildon-1 libhildondesktop-1 hildon-fm-2 gtk+-2.0 gstreamer-1.0)
 AC_SUBST(MAEMO_CFLAGS)
 AC_SUBST(MAEMO_LIBS)
-
+MAEMO_LIBS="$MAEMO_LIBS -lm"
 PKG_CHECK_MODULES(OSSO, [libosso >= 1])
 AC_SUBST(OSSO_LIBS)
+OSSO_LIBS="$OSSO_LIBS -lm"
 AC_SUBST(OSSO_CFLAGS)
 
 PKG_CHECK_MODULES(CONTROLPANEL, hildon-control-panel)
 AC_SUBST(CONTROLPANEL_CFLAGS)
 AC_SUBST(CONTROLPANEL_LIBS)
+CONTROLPANEL_LIBS="$CONTROLPANEL_LIBS"
 
 # Discover where to install the .desktop file:
 HILDON_HOME_DESKTOP_DIR=`pkg-config libhildondesktop-1 --variable=hildonhomedesktopentrydir`
