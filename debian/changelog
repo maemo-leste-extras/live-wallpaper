@@ -1,3 +1,9 @@
+live-wallpaper (1.0.4-1+leste1) unstable; urgency=low
+
+  * chimaera port
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Mon, 19 Dec 2022 03:41:30 +0400
+
 live-wallpaper (1.0.3-1+leste1) unstable; urgency=low
 
   * Maemo Leste port
