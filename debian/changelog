@@ -1,3 +1,9 @@
+live-wallpaper (1.0.5-1+leste1) unstable; urgency=low
+
+  * daedalus port
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Thu, 04 Sep 2025 04:46:30 +0400
+
 live-wallpaper (1.0.4-1+leste1) unstable; urgency=low
 
   * chimaera port
