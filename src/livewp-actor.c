@@ -936,7 +936,7 @@ change_slideshow(Actor *actor, AWallpaperPlugin *desktop_plugin)
 	    a2->visible = TRUE;
 	    create_hildon_actor(a2, desktop_plugin);
         set_actor_opacity(a2, 0);
-        pixbuf = gtk_image_get_pixbuf(a2->image);
+        pixbuf = gtk_image_get_pixbuf(GTK_IMAGE(a2->image));
         w = gdk_pixbuf_get_width(pixbuf);
         h = gdk_pixbuf_get_height(pixbuf);
         if (w < 800) {

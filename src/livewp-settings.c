@@ -23,7 +23,13 @@
 */
 /*******************************************************************************/
 #include "livewp-settings.h"
+#include "livewp-config.h"
 /*******************************************************************************/
+
+// forward decl.
+void additional_parametr_for_theme_flash(GtkWidget *vbox, Animation_WallpaperPrivate *priv);
+void additional_parametr_for_theme_slideshow(GtkWidget *vbox, Animation_WallpaperPrivate *priv);
+
 void lw_about(void){
 
     gchar *about_string;
@@ -772,10 +778,12 @@ additional_parametr_for_theme_slideshow(GtkWidget *vbox, Animation_WallpaperPriv
     gtk_box_pack_start(GTK_BOX(vbox), file_button, TRUE, TRUE, 5);
     g_object_set_data(G_OBJECT(priv->window), "filename_button", file_button);
 
+    guint tmp = 0;
     if (priv->theme_int_parametr1)
-    	time_button = create_time_button(priv->theme_int_parametr1, _("Time to change image"));
+        time_button = create_time_button(&priv->theme_int_parametr1, _("Time to change image"));
     else
-    	time_button = create_time_button(0, _("Time to change image"));
+        time_button = create_time_button(&tmp, _("Time to change image"));
+
     gtk_box_pack_start(GTK_BOX(vbox), time_button, TRUE, TRUE, 5);
     g_object_set_data(G_OBJECT(priv->window), "time_button", time_button);
 
