@@ -51,5 +51,6 @@ gint current_active_view(void);
 GSList * get_list_exthemes(void);
 void save_one_in_all_views_to_config(gboolean one_in_all_views);
 gboolean get_one_in_all_views_from_config(void);
+gint get_count_themes_from_config(gchar *theme_name);
 
 #endif
